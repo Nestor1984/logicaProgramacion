@@ -1,0 +1,36 @@
+<!--Pida a un usuario la edad y el genero, para que la computadora le indique si ya puede jubilarse. Tome en cuenta que un Hombre
+se puede jubilar cuando tenga 60 anos o mas, en cambio, una mujer mayor se jubilara si tiene mas de 54 anos.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 12</title>
+</head>
+<body>
+
+    <h2><strong>Ejercicio 12</strong></h2>
+
+    <form action="12.-Ejercicio.php" method="post">
+        <label for="edad">Ingrese su edad:</label>
+
+        <input type="number" name="edad-usuario" id="edad" required placeholder="Ingrese su edad...">
+
+        <br> 
+
+        <h5>Ingrese su genero:</h5>
+        <label for="genero-masculino">
+        <input type="radio" name="genero" id="genero-masculino" value="Masculino">Masculino
+        
+        <label for="genero-femenino">
+        <input type="radio" name="genero" id="genero-femenino" value="Femenino">Femenino
+
+        <br> <br>
+        <input type="submit" value="Enviar Datos">
+
+    </form>
+    
+</body>
+</html>

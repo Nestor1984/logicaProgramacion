@@ -1,0 +1,31 @@
+<!--Hallar una bonificacion que un trabajador recibe, si este bono se le asigna como un porcentaje de
+su salario mensual que depende de su antiguedad en la empresa:
+    Tiempo                                   Bono
+    Menos de 3 anios                        5% del salario
+    3 anios o mas y menos de 6 anios        10% del salario
+    6 anios o mas y menos de 15 anios       15% del salario
+    15 anios o mas                          20% del salario
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Ejercicio PHP</p>
+    <fieldset>
+        <legend>Ingresar datos</legend>
+        <form action="Principal.php" method="post">
+            <label for="anio">¿Cuantos anios lleva en la empresa?</label>
+            <input type="number" name="anios-antiguedad" id="anio"><br><br>
+            <label for="salario">Ingrese su salario: </label>
+            <input type="number" name="salario-empleado" id="salario">
+            <br><br>
+            <input type="submit" value="Enviar Datos">
+        </form>
+    </fieldset>
+</body>
+</html>

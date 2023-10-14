@@ -1,0 +1,51 @@
+<!--
+Sea el juego de MAYOR MENOR, que utiliza dos dados, consiste en lanzar los dados
+y la suma obtenida puede ser Mayor o menor a 7, gana de acuerdo a Mayor elegida (o menor)
+Descripcion: Para esto podemos describir los siguientes pasos:
+- Menor (2, 3, 4, 5, 6), Mayor (8, 9, 10, 11, 12)
+- El 7 es la casa o dueno del juego.
+- Si se apuesta a Mayor gana, si apuesta a menor gana.
+- Si la suma es 7 pierden los que apuestan a mayor o menor, gana la casa.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div>
+            <header>
+                <h1>Juego de Apuestas!</h1>
+            </header>
+        </div>
+        <div>
+            <section>
+                <div>
+                    <img src="imagenes/unnamed.png" alt="Imagen de dados" width="200px">
+                </div>
+                <article>
+                    <form action="Principal.php" method="post">
+                        <fieldset>
+                            <legend>Rellenar los siguientes campos:</legend>
+                            <label>¿Apuesta a Mayor o menor?</label><br><br>
+                            <label for="mayor">Mayor: </label>
+                            <input type="radio" name="opcion-elegida" value="Mayor" id="mayor" checked><br><br>
+                            <label for="menor">Menor: </label>
+                            <input type="radio" name="opcion-elegida" value="Menor" id="menor"><br><br>
+                            <input type="submit" value="Enviar Apuesta">
+                        </fieldset>
+                    </form>
+                </article>
+            </section>
+        </div>
+        <div>
+            <footer>
+                <small>Sin derechos de autor</small>
+            </footer>
+        </div>
+    </main>
+</body>
+</html>

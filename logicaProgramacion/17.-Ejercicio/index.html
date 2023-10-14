@@ -1,0 +1,30 @@
+<!--27. Probar con: a) P(x) = x^2+3x+2 b) P(x) = 2x^2+4x+2 c) P(x) = 3x^2+2-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h2>Probar con: a) P(x) = x^2+3x+2 b) P(x) = 2x^2+4x+2 c) P(x) = 3x^2+2</h2>
+        <p>Hallar las imagenes de las funciones</p>
+        <div>
+            <form action="Principal.php" method="post">
+                <fieldset>
+                    <legend>Ingresar Opcion</legend>
+                    <select name="Opcion-elegida">
+                        <option value="primeraFuncion">P(x) = x^2+3x+2</option>
+                        <option value="segundaFuncion">P(x) = 2x^2+4x+2</option>
+                        <option value="terceraFuncion">P(x) = 3x^2+2</option>
+                    </select><br><br>
+                    <label for="valor-x">Ingresar el valor de x: </label>
+                    <input type="number" name="x" id="valor-x"> <br> <br>
+                    <input type="submit" value="Enviar Datos">
+                </fieldset>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
